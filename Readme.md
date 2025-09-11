@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Czp-dev
+# 👋 Hey, I'm Cz
 
 💻 Étudiant & passionné par la **cybersécurité** et l’**intelligence artificielle**  
 ⚡ J’aime apprendre, expérimenter et créer des projets qui me challengent  
@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Tech Stack
-- **Langages** : Rust 🦀 | C | C++ | Lua | Python | JavaScript | HTML | CSS  
+- **Langages** : Rust  | C | C++ | Lua | Python | JavaScript | HTML | CSS  
 - **Frameworks / Libs** : Vue.js | React ⚛️ | Django  
 - **Domaines d’intérêt** : Cybersec 🔐 | Data & IA 🤖  
 
