@@ -14,8 +14,9 @@
 ---
 
 ## 📈 GitHub Stats
-![Stats]([![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats))  
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Czp-dev&layout=compact&hide_border=true&theme=tokyonight)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=TonNomUtilisateur&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TonNomUtilisateur&layout=compact&theme=dark)
+
 
 ---
 
