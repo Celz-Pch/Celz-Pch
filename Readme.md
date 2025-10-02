@@ -14,8 +14,8 @@
 ---
 
 ## 📈 GitHub Stats
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=Cz&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cz&layout=compact&theme=dark)
+![Cz's GitHub stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Celz-Pch&layout=compact&theme=radical)
 
 
 ---
