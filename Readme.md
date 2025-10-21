@@ -13,11 +13,4 @@
 
 ---
 
-## 📈 GitHub Stats
-![Cz's GitHub stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Celz-Pch&layout=compact&theme=radical)
-
-
----
-
 ✨ *Je construis peu à peu mon parcours dans la tech, en mettant l’accent sur la cybersécurité et l’IA.*
