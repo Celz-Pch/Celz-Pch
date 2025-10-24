@@ -57,7 +57,7 @@
 
 ## 📈 GitHub Stats  
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&hide_border=true&theme=tokyonight)  
+![Stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&hide_border=true&theme=tokyonight&count_private=true)
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Celz-Pch&layout=compact&hide_border=true&theme=tokyonight)
 
 ---
