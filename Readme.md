@@ -59,4 +59,5 @@
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&hide_border=true&theme=tokyonight&count_private=true)
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Celz-Pch&layout=compact&hide_border=true&theme=tokyonight)
+![Discord Presence](https://lanyard.cnrad.dev/964827684918136852?theme=dark&bg=1f1f1f&animated=true&hideDiscrim=true&borderRadius=10px)
 
