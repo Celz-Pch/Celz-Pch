@@ -27,9 +27,6 @@ INIT_PROFILE:
     MOV     GOAL,        "Acquire skills & master new technologies"
     RET
 
-; ==================================================
-; TECH STACK
-; ==================================================
 SECTION .tech_stack
     ; Low-level & scripting
     DB  "C", 0
@@ -50,33 +47,21 @@ SECTION .tech_stack
     DB  "Django", 0
     DB  "PHP", 0
 
-; ==================================================
-; TOOLS & ENVIRONMENT
-; ==================================================
 SECTION .tools
     DB  "Git", 0
     DB  "npm", 0
     DB  "MySQL", 0
     DB  "phpMyAdmin", 0
 
-; ==================================================
-; OPERATING SYSTEMS
-; ==================================================
 SECTION .os
     DB  "Ubuntu", 0
     DB  "Windows", 0
 
-; ==================================================
-; INTEREST REGISTERS
-; ==================================================
 SECTION .interests
     MOV     R1, CYBERSECURITY     ; Attack & Defense
     MOV     R2, INFRASTRUCTURE    ; Systems & Networks
     MOV     R3, DEVELOPMENT       ; Software Engineering
 
-; ==================================================
-; GITHUB METRICS
-; ==================================================
 SECTION .metrics
     ; Runtime statistics fetched externally
     ; github-readme-stats.vercel.app
@@ -85,8 +70,5 @@ SECTION .metrics
     CALL    FETCH_STATS
     CALL    FETCH_LANG_USAGE
 
-; ==================================================
-; END OF FILE
-; ==================================================
 HLT
 ```
