@@ -27,14 +27,7 @@ SECTION .env
     DB "Ubuntu",0,"Windows",0
 
 SECTION .interests
-    MOV RAX, CYBERSEC
-    MOV RBX, INFRA
-    MOV RCX, DEV
-    MOV RDX, PHYSICS + MATHS
-
-SECTION .stats
-STATS:
-    MOV GITHUB, "Celz-Pch"
-    RET
+    MOV RCX, MATHS
+    MOV RDX, PHYSICS
 
 ```
