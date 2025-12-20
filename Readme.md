@@ -1,59 +1,92 @@
-# 👋 Hey, I'm Cz  
+```asm
+; ==================================================
+;  README.asm — Cz
+; ==================================================
+; Author   : Cz
+; School   : EPITECH Nice
+; Domain   : Development & Cybersecurity
+; Status   : Student / Learner / Builder
+; ==================================================
 
-💻 IT student at **Epitech Nice** & passionate about **development** and **cybersecurity**  
-⚡ I love to learn, experiment and code  
-🌱 Always eager to gain new skills and discover new technologies  
+SECTION .boot
+    MOV     USERNAME,    "Cz"
+    MOV     ROLE,        "IT Student @ EPITECH Nice"
+    MOV     MINDSET,     "Learn | Experiment | Code"
+    MOV     CURIOSITY,   HIGH
 
----
+    CALL    INIT_PROFILE
 
-## 🚀 Tech Stack  
+; --------------------------------------------------
+SECTION .profile
+INIT_PROFILE:
+    PUSH    PASSION
+    PUSH    DISCIPLINE
+    PUSH    CURIOSITY
 
-<p align="center">
-<img alt="C" src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-<img alt="Lua" src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" />
-<img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" />
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-<img alt="TailwindCSS" src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img alt="Vue" src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" />
-<img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
-<img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
-<img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-</p>
+    MOV     PASSION,     DEV + CYBERSEC
+    MOV     GOAL,        "Acquire skills & master new technologies"
+    RET
 
----
+; ==================================================
+; TECH STACK
+; ==================================================
+SECTION .tech_stack
+    ; Low-level & scripting
+    DB  "C", 0
+    DB  "Lua", 0
+    DB  "Python", 0
 
-### 🛠️ Tools & Environments  
+    ; Web technologies
+    DB  "JavaScript", 0
+    DB  "TypeScript", 0
+    DB  "HTML5", 0
+    DB  "CSS3", 0
+    DB  "TailwindCSS", 0
 
-<p align="center">
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img alt="npm" src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
-<img alt="MySQL" src="https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white" />
-<img alt="phpMyAdmin" src="https://img.shields.io/badge/phpMyAdmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white" />
-</p>
+    ; Frameworks & runtimes
+    DB  "Vue.js", 0
+    DB  "React", 0
+    DB  "Node.js", 0
+    DB  "Django", 0
+    DB  "PHP", 0
 
----
+; ==================================================
+; TOOLS & ENVIRONMENT
+; ==================================================
+SECTION .tools
+    DB  "Git", 0
+    DB  "npm", 0
+    DB  "MySQL", 0
+    DB  "phpMyAdmin", 0
 
-### 💻 OS  
+; ==================================================
+; OPERATING SYSTEMS
+; ==================================================
+SECTION .os
+    DB  "Ubuntu", 0
+    DB  "Windows", 0
 
-<p align="center">
-<img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-<img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" />
-</p>
+; ==================================================
+; INTEREST REGISTERS
+; ==================================================
+SECTION .interests
+    MOV     R1, CYBERSECURITY     ; Attack & Defense
+    MOV     R2, INFRASTRUCTURE    ; Systems & Networks
+    MOV     R3, DEVELOPMENT       ; Software Engineering
 
----
+; ==================================================
+; GITHUB METRICS
+; ==================================================
+SECTION .metrics
+    ; Runtime statistics fetched externally
+    ; github-readme-stats.vercel.app
+    MOV     GITHUB_USER, "Celz-Pch"
 
-### 🔒 Interest Areas  
-- Cybersecurity 🛡️  
-- Infrastructure ⚙️  
-- Development 💻  
+    CALL    FETCH_STATS
+    CALL    FETCH_LANG_USAGE
 
----
-
-## 📈 GitHub Stats  
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Celz-Pch&show_icons=true&hide_border=true&theme=tokyonight&count_private=true)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Celz-Pch&layout=compact&hide_border=true&theme=tokyonight)
+; ==================================================
+; END OF FILE
+; ==================================================
+HLT
+```
