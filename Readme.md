@@ -1,74 +1,40 @@
 ```asm
-; ==================================================
-;  README.asm — Cz
-; ==================================================
-; Author   : Cz
-; School   : EPITECH Nice
-; Domain   : Development & Cybersecurity
-; Status   : Student / Learner / Builder
-; ==================================================
+BITS 64
+DEFAULT REL
 
 SECTION .boot
-    MOV     USERNAME,    "Cz"
-    MOV     ROLE,        "IT Student @ EPITECH Nice"
-    MOV     MINDSET,     "Learn | Experiment | Code"
-    MOV     CURIOSITY,   HIGH
+    MOV USER,    "Cz"
+    MOV ROLE,    "IT Student @ EPITECH Nice"
+    MOV STACK,   DEV | CYBERSEC
+    MOV PASSION, PHYSICS | MATHS
 
-    CALL    INIT_PROFILE
+    CALL PROFILE
+    CALL STATS
+    HLT
 
-; --------------------------------------------------
 SECTION .profile
-INIT_PROFILE:
-    PUSH    PASSION
-    PUSH    DISCIPLINE
-    PUSH    CURIOSITY
-
-    MOV     PASSION,     DEV + CYBERSEC
-    MOV     GOAL,        "Acquire skills & master new technologies"
+PROFILE:
+    MOV MINDSET, "Learn • Build • Break • Learn"
     RET
 
-SECTION .tech_stack
-    ; Low-level & scripting
-    DB  "C", 0
-    DB  "Lua", 0
-    DB  "Python", 0
+SECTION .tech
+    DB "C",0,"Lua",0,"Python",0
+    DB "JS",0,"TS",0,"HTML",0,"CSS",0,"Tailwind",0
+    DB "Vue",0,"React",0,"Node",0,"Django",0,"PHP",0
 
-    ; Web technologies
-    DB  "JavaScript", 0
-    DB  "TypeScript", 0
-    DB  "HTML5", 0
-    DB  "CSS3", 0
-    DB  "TailwindCSS", 0
-
-    ; Frameworks & runtimes
-    DB  "Vue.js", 0
-    DB  "React", 0
-    DB  "Node.js", 0
-    DB  "Django", 0
-    DB  "PHP", 0
-
-SECTION .tools
-    DB  "Git", 0
-    DB  "npm", 0
-    DB  "MySQL", 0
-    DB  "phpMyAdmin", 0
-
-SECTION .os
-    DB  "Ubuntu", 0
-    DB  "Windows", 0
+SECTION .env
+    DB "Git",0,"MySQL",0,"npm",0
+    DB "Ubuntu",0,"Windows",0
 
 SECTION .interests
-    MOV     R1, CYBERSECURITY     ; Attack & Defense
-    MOV     R2, INFRASTRUCTURE    ; Systems & Networks
-    MOV     R3, DEVELOPMENT       ; Software Engineering
+    MOV RAX, CYBERSEC
+    MOV RBX, INFRA
+    MOV RCX, DEV
+    MOV RDX, PHYSICS + MATHS
 
-SECTION .metrics
-    ; Runtime statistics fetched externally
-    ; github-readme-stats.vercel.app
-    MOV     GITHUB_USER, "Celz-Pch"
+SECTION .stats
+STATS:
+    MOV GITHUB, "Celz-Pch"
+    RET
 
-    CALL    FETCH_STATS
-    CALL    FETCH_LANG_USAGE
-
-HLT
 ```
